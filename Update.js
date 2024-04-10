@@ -29,7 +29,7 @@ function updateUserProfile(user){
   const userprofilepic = user.photoURL;
   
   document.getElementById("txt_username").textContent = username;
-  documant.getElementById("txt_email").textContent = useremail;
+  document.getElementById("txt_email").textContent = useremail;
   document.getElementById("img_avatar").src = userprofilepic;
 }
 
